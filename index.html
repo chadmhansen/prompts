@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatGPT Prompt Library</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 2rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    details {
+      background: white;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+      padding: 1rem;
+      transition: all 0.3s ease-in-out;
+    }
+    summary {
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      margin-top: 1rem;
+      background-color: #f1f3f5;
+      padding: 1rem;
+      border-radius: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>My ChatGPT Prompt Library</h1>
+  
+  <!-- Repeat this section up to 30 times -->
+  <details>
+    <summary>1. Digital Twin Prompt</summary>
+    <pre>
+"You are my digital twin — a product management copilot who mirrors my thinking, context, and priorities. Here’s who I am and how I work:
+
+- I’m a senior PM at a leading CCaaS company, working on capabilities like video chat, co-browse, and multilingual web messaging.
+- I work across UX, dev, compliance, and go-to-market teams to build scalable, compliant, and customer-first products.
+- I care about fast iteration, clarity of purpose, and alignment with user value and company strategy.
+- I lead and mentor PMs and product directors. I often write PRDs, strategy docs, competitive battlecards, and product launch materials.
+
+Use concise, structured thinking. Think through edge cases, trade-offs, risks, and stakeholder perspectives. Be proactive in spotting gaps, raising flags, or suggesting improvements.
+
+You can help me with:
+- Turning ideas into crisp product docs
+- Researching competitors or synthesizing user insights
+- Structuring communications for stakeholders
+- Drafting UX copy or UI flows
+- Exploring scenarios or prioritization frameworks
+- Acting as a critical thinking partner or devil’s advocate
+
+Start by asking me what I’m working on — or suggest something I should be thinking about based on the context I’ve given.
+Draft a PRD for a new feature that allows users to schedule a video call from within our support chat. Include problem statement, goals, scope, user stories, and success metrics."
+    </pre>
+  </details>
+
+  <details>
+    <summary>2. R&D Activity Prompt</summary>
+    <pre>
+"I have a standard R&D Activity reporting template used to justify tax credits for R&D work. I will first share the template (sections with instructions but no answers), and then I will provide a PRD for a new project. Please generate short, focused answers based on the R&D work described in the PRD for each section of the template. 
+
+Project Context Instructions
+Answer each question, minimum 1 sentence each:
+
+What are the key business goals for this project, and how will it benefit the company?
+
+Was the project developed for internal consumption? 
+
+If yes, and the project was developed for exclusively internal consumption with no external element, what alternative would have been pursued if the activities had not been successful?
+
+For examples and tips, see:
+How to fill the R&D Activity Tab in Jira
+
+Project Context Details
+
+
+None
+Technological Advancements Instructions
+In a short paragraph, answer the following:
+
+Forgetting the business reasons for the project and focusing solely on the technology itself, provide a high-level description of the overall technological advancements that were required or sought to be achieved at the outset of this project.
+
+You may add the URL of any document that addresses this step.
+
+For examples and tips, see:
+How to fill the R&D Activity Tab in Jira
+
+Technological Advancements Details
+
+
+None
+State of the Art Instructions
+In a short paragraph, answer the following:
+
+Is there any development during this project that you would consider as innovative?
+
+For the State of the Art dropdown field, did you (select one): 
+a)	Enhance an existing product 
+b)	Improve the performance of an existing Product, or
+c)	Develop a new capability from scratch
+d)	None of the above
+e)	Other
+
+For examples and tips, see:
+How to fill the R&D Activity Tab in Jira
+
+State of the Art Details
+
+
+None
+State of the Art
+
+
+None
+Technological Objective(s) Instructions
+Using bullet points:
+
+Please provide a listing of the key technical objectives and/or specifications of the project.
+
+You may add the URL of any document that addresses this step.
+
+For examples and tips, see:
+How to fill the R&D Activity Tab in Jira
+
+Technological Objective(s) Details
+
+
+None
+Technological Uncertainties Instructions
+In a short paragraph, answer the following:
+
+At the outset of the project, what were the main technological uncertainties or challenges that were identified and would have to be overcome in order to deliver the project? Please include metrics, if possible, for example, as relates to requirements for accuracy, performance, scalability, low latency, supportability, code maintainability, etc.
+
+For examples and tips, see:
+How to fill the R&D Activity Tab in Jira
+
+Technological Uncertainties Details
+
+
+None
+Process of Experimentation Instructions
+Answer each question, minimum 1 sentence each:
+
+Referring to the description of a process of experimentation link, what type of technical improvements (successful or not) were made to try to meet technical objectives? It is good to discuss the result, but the most important information relates to how you got there:
+
+a. How the process or tasks were performed prior to the new solution.
+
+b. Provide a technical description of each alternative along with the pros and cons of each in terms of resolving the technical uncertainty. For example:
+
+c. Describe the technical solution or where the development stopped.
+
+For examples and tips, see:
+How to fill the R&D Activity Tab in Jira
+
+Process of Experimentation Details
+
+
+None
+R&D Steps Instructions
+Please describe sequentially the steps involved in the development of this project. There are 4 sections for each step. For each step:
+
+Provide a title and the approximate start date and end date
+
+Describe the step and what was involved
+
+Describe the main challenges faced in that step
+
+Describe how this work fits into the project overall (what could not be done before this step that is now possible)
+
+For examples and tips, see:
+How to fill the R&D Activity Tab in Jira
+
+R&D Steps Details
+
+
+None
+Results & Conclusions Instructions
+Answer each question, minimum 1 sentence each:
+
+Are there any metrics that were important to the development?
+
+Do you have before and after metrics? (Please provide links)
+
+Does the new software meet your requirements?
+
+Were there any lessons learned?
+
+For examples and tips, see:
+How to fill the R&D Activity Tab in Jira
+
+Results & Conclusions Details
+
+
+None"
+    </pre>
+  </details>
+
+  <details>
+    <summary>3. Risk Analysis Prompt</summary>
+    <pre>
+"List potential risks for launching [Feature] across regulated industries. Classify as legal, technical, or adoption, and propose mitigations."
+    </pre>
+  </details>
+
+  <details>
+    <summary>3. Risk Analysis Prompt</summary>
+    <pre>
+"List potential risks for launching [Feature] across regulated industries. Classify as legal, technical, or adoption, and propose mitigations."
+    </pre>
+  </details>
+
+ <details>
+    <summary>3. Risk Analysis Prompt</summary>
+    <pre>
+"List potential risks for launching [Feature] across regulated industries. Classify as legal, technical, or adoption, and propose mitigations."
+    </pre>
+  </details>
+
+ <details>
+    <summary>3. Risk Analysis Prompt</summary>
+    <pre>
+"List potential risks for launching [Feature] across regulated industries. Classify as legal, technical, or adoption, and propose mitigations."
+    </pre>
+  </details>
+
+ <details>
+    <summary>3. Risk Analysis Prompt</summary>
+    <pre>
+"List potential risks for launching [Feature] across regulated industries. Classify as legal, technical, or adoption, and propose mitigations."
+    </pre>
+  </details>
+
+ 
+
+  <!-- Add 27 more prompts below -->
+
+</body>
+</html>
